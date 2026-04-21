@@ -15,5 +15,4 @@ generatePasswordBtn.addEventListener("click", function () {
   }
   password[0].textContent = password1;
   password[1].textContent = password2;
-  console.log(password[0], password[1]);
 });
