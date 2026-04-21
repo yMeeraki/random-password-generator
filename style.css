@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 550px;
+  height: 350px;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 80px 40px;
+  color: #ecfdf5;
+}
+
+h1 {
+  font-family: Karla;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -2.5%;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: #10b981;
+}
+
+h3 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+button {
+  width: 191px;
+  height: 42px;
+  border-radius: 6px;
+  padding: 9px 15px;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  background: #10b981;
+  color: inherit;
+  border: none;
+  text-shadow: 0px 0px 2px #111;
+}
+
+button:hover{
+    background: #ecfdf5;
+    color:#1c1c1c;
+    cursor: pointer;
+}
+
+.passwords-container {
+  border-top: 1px solid #2f3e53;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.password {
+  width: 311px;
+  height: 39px;
+  border-radius: 6px;
+  background: #273549;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #10b981;
+}
